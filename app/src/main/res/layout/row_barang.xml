@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5sp">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/img_status"
+        android:src="@mipmap/ic_launcher_round"/>
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_nama"
+            android:text="nama barang"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="harga"
+            android:layout_weight="1"
+            android:id="@+id/tv_harga"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="jumlah"
+            android:layout_weight="1"
+            android:id="@+id/tv_jumlah"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_action"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_more_vert_black_24dp"/>
+</LinearLayout>
